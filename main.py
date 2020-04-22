@@ -96,8 +96,6 @@ def create_output_dirs():
         os.makedirs(cfg.base_output_path, exist_ok=True)
     if(not osp.exists(output_lbl_path)):
         os.makedirs(output_lbl_path, exist_ok=True)
-    if(not osp.exists(output_clr_path)):
-        os.makedirs(output_clr_path, exist_ok=True)
 
 
 if __name__ == '__main__':
